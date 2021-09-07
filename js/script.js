@@ -16,4 +16,7 @@ $('.clickable').click(function(){
 $('h4').click(function(){
     $('#three').fadeIn();
 });
+$('h4').click(function(){
+    $('#four').fadeOut();
+});
 })
