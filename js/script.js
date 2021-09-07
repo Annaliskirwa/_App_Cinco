@@ -19,4 +19,8 @@ $('h4').click(function(){
 $('h4').click(function(){
     $('#four').fadeOut();
 });
+$('h5').click(function(){
+    $("#ones").fadeToggle("slow");
+    $("#twos").fadeToggle(3000);
+});
 })
