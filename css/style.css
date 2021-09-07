@@ -12,3 +12,6 @@
   .clickable:hover {
     text-decoration: underline;
   }
+  #three{
+      display: none;
+  }

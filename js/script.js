@@ -8,8 +8,12 @@ $('p').click(function(){
 $('img').click(function(){
     alert("This is an image")
 });
-$('h3').click(function(){
+$('.clickable').click(function(){
   $(".imgtwo-showing").toggle();
   $(".imgtwo-hidden").toggle();
+});
+
+$('h4').click(function(){
+    $('#three').fadeIn();
 });
 })
