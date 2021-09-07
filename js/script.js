@@ -43,12 +43,18 @@ $("button#hello").click(function() {
     $("ul#user").prepend("<li>Hello!</li>");
     $("ul#webpage").prepend("<li>Why hello there!</li>");
     $('li').css('background-color', 'green');
+    $("li").click(function(){
+        alert("Hi")
+    })
   });
 
   $("button#goodbye").click(function() {
     $("ul#user").prepend("<li>Goodbye!</li>");
     $("ul#webpage").prepend("<li>Goodbye, dear user!</li>");
     $('li').css('background-color', 'blue');
+    $("li").click(function(){
+        alert("Hi")
+    })
   });
 
   $("button#stop").click(function() {
@@ -59,4 +65,12 @@ $("button#hello").click(function() {
         alert("Hi")
     })
   });
+
+  $("ul#user").children("li").first().click(function() {
+    $(this).remove();
+  });
+  $("ul#webpage").children("li").first().click(function() {
+    $(this).remove();
+  });
+
 })
