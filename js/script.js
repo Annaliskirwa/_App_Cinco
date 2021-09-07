@@ -9,6 +9,7 @@ $('img').click(function(){
     alert("This is an image")
 });
 $('h3').click(function(){
-    $("img").show();
+  $(".imgtwo-showing").toggle();
+  $(".imgtwo-hidden").toggle();
 });
 })
