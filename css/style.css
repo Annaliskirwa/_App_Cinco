@@ -3,10 +3,12 @@
     height: 500px;
     width: 500px;
 }
-p, h3, h1{
+
+.clickable {
     cursor: pointer;
-    color: #3f4cc2;
-}
-p:hover, h3:hover, h1:hover{
+    color: #0088cc;
+  }
+
+  .clickable:hover {
     text-decoration: underline;
-}
+  }
