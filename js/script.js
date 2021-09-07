@@ -1,11 +1,14 @@
-jQuery(document).ready(function(){
-jQuery('h1').click(function(){
+$(document).ready(function(){
+$('h1').click(function(){
     alert("This is a heading tag")
-})
-jQuery('p').click(function(){
+});
+$('p').click(function(){
     alert("This is a paragraph tag")
-})
-jQuery('img').click(function(){
+});
+$('img').click(function(){
     alert("This is an image")
-})
+});
+$('h3').click(function(){
+    $("img").show();
+});
 })
